@@ -599,3 +599,8 @@ Demo:
 ### 问题
 `Content-Type: text/plain`这样还能在IE下触发？
 https://hackerone.com/reports/472543
+
+
+### img的src属性
+这里插入任意js并不能xss
+- [XSS attack with javascript in img src attribute](https://stackoverflow.com/questions/1798633/xss-attack-with-javascript-in-img-src-attribute)
