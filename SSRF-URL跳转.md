@@ -153,6 +153,7 @@ urllib.urlopen('local-file:///etc/hosts').read()
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
 - [SSRF安全指北](https://mp.weixin.qq.com/s/EYVFHgNClgNGrk_92PZ90A)
 - [浅析SSRF在CTF中的各种实现方式](https://xz.aliyun.com/t/8613)
+- https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/
 
 
 
