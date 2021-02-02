@@ -218,6 +218,12 @@ else:
 #### 30x跳转
 如果限制了只支持
 
+php构造302跳转：
+```php
+<?php
+header('Location: http://192.168.1.142:4444/attack?arbitrary=params');
+```
+
 #### URL解析绕过
 
 #### DNS rebinding
