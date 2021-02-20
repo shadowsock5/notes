@@ -1,0 +1,1 @@
+- [Imperva WAF Bypass](https://www.techanarchy.net/imperva-waf-bypass/)
