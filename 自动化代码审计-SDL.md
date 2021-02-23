@@ -10,7 +10,7 @@
 
 - [应用安全评审中的三个关键节点及抓手实现](https://mp.weixin.qq.com/s/g22EJQRPjrlzL165lcB6AA)
 - [SDL安全与企业办公安全落地实践](https://mp.weixin.qq.com/s/B4Oh8QG_BR4Z8s3U6Bc6Uw)
-
+- [SDL软件安全设计初窥](https://xz.aliyun.com/t/41/)
 
 
 ### 主要工作
