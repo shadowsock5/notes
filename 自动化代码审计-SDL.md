@@ -3,6 +3,7 @@
 - [java AST 抽象语法树-JavaParser 框架](https://houbb.github.io/2020/05/29/java-ast-01-javaparser)
 - [JavaParse(AST)获取Java Web API list](https://mp.weixin.qq.com/s/ATpoEN9QI-D5vkxDimQ8FQ)
 - https://gist.github.com/B1ueB0ne/7ee600305364f76bf5105c98054f62e6
+- [使用javalang进行AST分析](https://blog.riskivy.com/%e4%bb%8east%e5%88%b0100%e4%b8%aa%e6%9f%90%e7%9f%a5%e5%90%8doa%e5%89%8d%e5%8f%b0%e6%b3%a8%e5%85%a5/)
 
 
 
