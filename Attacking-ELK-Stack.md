@@ -1,0 +1,2 @@
+- [Pentesting the ELK Stack](https://insinuator.net/2021/01/pentesting-the-elk-stack/)
+- [Poking At Elasticsearch: Beyond Just Dumping Data](https://www.archcloudlabs.com/projects/poking-at-elasticsearch-beyond-dumping-data/)
