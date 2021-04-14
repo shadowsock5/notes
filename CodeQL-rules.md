@@ -44,6 +44,12 @@ https://github.com/github/securitylab/issues/22
 CVE-2019-17513 - Ratpack
 CVE-2019-16771 - line/armeria
 
+
+Detect Dangerous Spring Service Exporters With CodeQL
+How to make sure that CVE-2016-1000027 does not affect your application
+https://infosecwriteups.com/detect-dangerous-spring-service-exporters-with-codeql-c3c800b7b2de
+
+
 ### Ref
 - https://hackerone.com/github-security-lab/hacktivity?type=team
 - https://www.youtube.com/watch?v=nvCd0Ee4FgE
