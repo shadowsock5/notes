@@ -1,0 +1,1 @@
+- [Untrusted deserialization issue when loading newrelic.yml file in Java agent leads to code execution on host](https://hackerone.com/reports/1109620)
