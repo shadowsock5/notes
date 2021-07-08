@@ -43,6 +43,7 @@ https://www.cnblogs.com/Narule/p/13200848.html
         </execution>
     </executions>
 </plugin>
+```
 到时候直接执行：
 ```
 mvn clean package -DskipTests
