@@ -1,0 +1,1 @@
+- https://afinepl.medium.com/practical-strategies-for-exploiting-file-read-vulnerabilities-272abe792078

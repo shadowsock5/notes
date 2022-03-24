@@ -1,0 +1,4 @@
+- https://xsleaks.dev/
+- http://www.carnal0wnage.com/
+- https://www.ehpus.com/
+- http://www.leveryd.top/2020-12-23-Python%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8CCase/

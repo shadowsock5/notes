@@ -1,0 +1,2 @@
+- https://www.itechtics.com/windows-10-download-iso/
+- https://software.download.prss.microsoft.com/db/Win10_21H2_English_x64.iso?t=5481465c-fb29-4c16-bcaa-ebad2d880ec9&e=1647903819&h=4539c8f52096f0210ea5489c96454fe1ee19117ee0bcb196add580d9e4ecbda0

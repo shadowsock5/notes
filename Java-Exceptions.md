@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/37787079/intellij-unable-to-use-newer-java-8-classes-error-usage-of-api-documented

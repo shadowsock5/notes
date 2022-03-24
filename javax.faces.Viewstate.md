@@ -1,0 +1,2 @@
+- [Demystifying Insecure Deserialisation on JSF Application](https://dhiyaneshgeek.github.io/web/security/2021/05/08/demystifying-insecure-deserialisation-on-JSF-application/)
+- [[ASCIS 2020 Final Writeup] mojarra_war — JSF ViewState deserialize](https://tradahacking.vn/ascis-2020-final-writeup-mojarra-war-jsf-viewstate-deserialize-5ddf740e9e7b)

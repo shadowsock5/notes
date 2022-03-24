@@ -1,0 +1,2 @@
+- https://github.com/RedTeamWing/Hunting-Active-Directory
+- [Domain Persistence – Machine Account](https://pentestlab.blog/2022/01/17/domain-persistence-machine-account/)
