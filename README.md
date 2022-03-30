@@ -135,6 +135,7 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 - http://www.fileformat.info/tool/hash.htm
 - http://www.cmd5.com/
 - https://crackstation.net/
+- https://passwordrecovery.io/sha256/
 - https://www.nirsoft.net/utils/hashmyfiles-x64.zip
 
 ### 社工字典生成器
