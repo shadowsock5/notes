@@ -4,6 +4,9 @@ https://mrxn.net/hacktools/661.html
 https://mega.nz/file/bUFS0Q5L#RvGZaKbdn65rK5BXxxM6APmRqbMbKeHraxIOgou7N5k
 解压密码:mrxn.net
 
+https://github.com/TrojanAZhen/BurpSuitePro-2.1
+https://mp.weixin.qq.com/s/4KXxKdnPeWqsEsylObhg8w
+
 
 ## jython
 - https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar
