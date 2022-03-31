@@ -195,6 +195,10 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 - https://bbs.pediy.com/
 - https://www.52pojie.cn
 
+### jdk download
+- https://archive.org/details/jdk-7u80-windows-x64_201809
+- https://files-cdn.liferay.com/mirrors/download.oracle.com/otn-pub/java/jdk/7u80-b15/
+
 #### Demo
 ```
 "burp" site:https://xz.aliyun.com/ OR https://www.anquanke.com/ OR http://paper.seebug.org OR https://www.freebuf.com/ OR https://bbs.ichunqiu.com OR https://bbs.pediy.com/ OR https://www.52pojie.cn
