@@ -14,3 +14,22 @@
 对于 Ubuntu AMI，用户名称是 ubuntu。
 ```
 https://www.cnblogs.com/yelao/p/12589098.html
+
+
+登录：
+```
+Last login: Tue Apr 19 02:50:45 2022 from ec2-xxxxxxxx.us-west-1.compute.amazonaws.com
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+[ec2-user@ip-xxxxx ~]$ id
+uid=1000(ec2-user) gid=1000(ec2-user) groups=1000(ec2-user),4(adm),10(wheel),190(systemd-journal)
+[ec2-user@ip-xxxxx ~]$ cat /etc/issue
+\S
+Kernel \r on an \m
+
+
+```
