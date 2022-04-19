@@ -33,3 +33,37 @@ Kernel \r on an \m
 
 
 ```
+
+
+![image](https://user-images.githubusercontent.com/30398606/163912942-61a2c939-9e49-4733-b678-eaf43ab37a2f.png)
+
+```
+/usr/local/gradle
+/usr/lib/jvm/java
+/usr/local/apache-maven/bin
+/usr/local/apache-maven
+```
+
+默认的ec2用户主机上的端口是这样的：
+```
+[ec2-user@ip-172-31-6-246 ~]$ sudo netstat -plnt
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      2613/rpcbind
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      3265/sshd
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      3028/master
+tcp6       0      0 :::111                  :::*                    LISTEN      2613/rpcbind
+tcp6       0      0 :::22                   :::*                    LISTEN      3265/sshd
+```
+而Elastic Beanstalk应用服务器上的端口是：
+```
+PORT     STATE SERVICE
+21/tcp   open  ftp
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+554/tcp  open  rtsp
+1723/tcp open  pptp
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+```
