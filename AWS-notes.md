@@ -68,6 +68,28 @@ PORT     STATE SERVICE
 8443/tcp open  https-alt
 ```
 
+详细列表：
+```
+21/tcp   open  ftp-proxy   Zscaler ftp proxy 6.1
+53/tcp   open  domain      (unknown banner: Secured !!! Here no any useful information to you !!!)
+| fingerprint-strings:
+|   DNSVersionBindReqTCP:
+|     version
+|     bind
+|_    65Secured !!! Here no any useful information to you !!!
+| dns-nsid:
+|_  bind.version: Secured !!! Here no any useful information to you !!!
+80/tcp   open  http        nginx 1.18.0
+|_http-title: 502 Bad Gateway
+|_http-server-header: nginx/1.18.0
+443/tcp  open  https?
+554/tcp  open  rtsp?
+1723/tcp open  pptp?
+|_pptp-version: ERROR: Script execution failed (use -d to debug)
+8080/tcp open  http-proxy?
+8443/tcp open  https-alt?
+```
+
 碰到502：
 Ref:
 - https://aws.amazon.com/premiumsupport/knowledge-center/load-balancer-http-502-errors/
