@@ -67,3 +67,7 @@ PORT     STATE SERVICE
 8080/tcp open  http-proxy
 8443/tcp open  https-alt
 ```
+
+碰到502：
+Ref:
+- https://aws.amazon.com/premiumsupport/knowledge-center/load-balancer-http-502-errors/
