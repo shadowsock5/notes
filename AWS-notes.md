@@ -130,3 +130,5 @@ xray:x:497:496::/home/xray:/bin/false
 tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat8:/sbin/nologin
 ```
 
+### AWS lambda function渗透
+- https://riyazwalikar.github.io/pentestawslambda/#/4
