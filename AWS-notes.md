@@ -132,8 +132,10 @@ tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat8:/sbin/nologin
 
 ### AWS lambda function渗透
 - https://riyazwalikar.github.io/pentestawslambda/#/4
-
-
+- https://github.com/RhinoSecurityLabs/Cloud-Security-Research/blob/master/AWS/lambda_ssrf/README.md
+- [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf)
+- https://twitter.com/SpenGietz/status/1161317376060563456
+- https://medium.com/poka-techblog/privilege-escalation-in-the-cloud-from-ssrf-to-global-account-administrator-fd943cf5a2f6
 
 ### lambda
 常用命令：
