@@ -124,6 +124,23 @@ Ref:
 - https://aws.amazon.com/premiumsupport/knowledge-center/load-balancer-http-502-errors/
 
 
+### 安裝AWS cli工具
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+# aws-cli/2.5.8 Python/3.9.11 Linux/5.4.0-105-generic exe/x86_64.ubuntu.20 prompt/off
+
+$ export AWS_ACCESS_KEY_ID=ASIAIOSFODNN7EXAMPLE
+$ export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+$ export AWS_SESSION_TOKEN=AQoDYXdzEJr...<remainder of security token>
+$ aws ec2 describe-instances --region us-west-1
+```
+
+Ref:
+- https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/getting-started-install.html
+- https://docs.aws.amazon.com/zh_cn/IAM/latest/UserGuide/id_credentials_temp_use-resources.html
 
 创建web app部署到tomcat，拿到的文件内容：
 ### /etc/passwd
