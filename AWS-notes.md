@@ -270,3 +270,8 @@ LAMBDA_RUNTIME_DIR=/var/runtime
         Class.forName("lambdainternal.AWSLambda", true, internalClassLoader);
     }
 ```
+
+
+## Ref
+- [AWS RDS Vulnerability Leads to AWS Internal Service Credentials](https://blog.lightspin.io/aws-rds-critical-security-vulnerability)
+- [AWS's Log4Shell HotPatch Vulnerable to Container Escape and Privilige Escalation](https://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/)
