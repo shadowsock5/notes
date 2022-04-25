@@ -283,6 +283,23 @@ LAMBDA_RUNTIME_DIR=/var/runtime
 ```
 
 
+### 查看lambda产生的日志
+```
+使用 Lambda 控制台查看日志
+
+- 打开 Lamba 控制台的 Functions（函数）页面。
+
+- 选择函数。
+
+- 选择 Monitor (监控)。
+
+- 选择查看 CloudWatch 中的日志。
+```
+![image](https://user-images.githubusercontent.com/30398606/165037401-03bac51a-cba7-47c2-9671-220225e95053.png)
+
+Ref：
+- https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/monitoring-cloudwatchlogs.html
+
 
 ### 名词解释
 ```
