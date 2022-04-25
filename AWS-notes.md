@@ -195,6 +195,17 @@ Ref:
 Ref:
 - https://www.trendmicro.com/en_us/devops/21/g/security-for-aws-lambda-serverless-applications.html
 
+
+### lambda runtime interface emulator
+```
+mkdir -p ~/.aws-lambda-rie && curl -Lo ~/.aws-lambda-rie/aws-lambda-rie https://github.com/aws/aws-lambda-runtime-interface-emulator/releases/latest/download/aws-lambda-rie && chmod +x ~/.aws-lambda-rie/aws-lambda-rie
+~/.aws-lambda-rie/aws-lambda-rie
+cqq@cqq:~$ sudo netstat -plnt|grep 9001
+[sudo] password for cqq:
+tcp        0      0 127.0.0.1:9001          0.0.0.0:*               LISTEN      32635/aws-lambda-ri
+
+```
+
 ### lambda
 常用命令：
 ```
@@ -271,6 +282,15 @@ LAMBDA_RUNTIME_DIR=/var/runtime
     }
 ```
 
+
+
+### 名词解释
+```
+SAM, Serverless Application Modal
+```
+Windows SAM cli install:
+- [安装AWS SAM在 Windows 上执行 CLI](https://docs.aws.amazon.com/zh_cn/serverless-application-model/latest/developerguide/serverless-sam-cli-install-windows.html)
+- https://docs.aws.amazon.com/zh_cn/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html
 
 ## Ref
 - [AWS RDS Vulnerability Leads to AWS Internal Service Credentials](https://blog.lightspin.io/aws-rds-critical-security-vulnerability)
