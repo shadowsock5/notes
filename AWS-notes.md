@@ -277,3 +277,4 @@ LAMBDA_RUNTIME_DIR=/var/runtime
 - [AWS's Log4Shell HotPatch Vulnerable to Container Escape and Privilige Escalation](https://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/)
 - https://github.com/RhinoSecurityLabs/Cloud-Security-Research/tree/master/AWS
 - [AWS Lambda Runtime Interface Emulator](https://github.com/aws/aws-lambda-runtime-interface-emulator)
+- [Deconstructing AWS Lambda Functions](https://medium.com/build-succeeded/deconstructing-aws-lambda-functions-d1597dd054cd)
