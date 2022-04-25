@@ -278,3 +278,4 @@ LAMBDA_RUNTIME_DIR=/var/runtime
 - https://github.com/RhinoSecurityLabs/Cloud-Security-Research/tree/master/AWS
 - [AWS Lambda Runtime Interface Emulator](https://github.com/aws/aws-lambda-runtime-interface-emulator)
 - [Deconstructing AWS Lambda Functions](https://medium.com/build-succeeded/deconstructing-aws-lambda-functions-d1597dd054cd)
+- [AWS Toolkit for JetBrains](https://docs.aws.amazon.com/zh_cn/zh_cn/toolkit-for-jetbrains/latest/userguide/key-tasks.html#key-tasks-install)
