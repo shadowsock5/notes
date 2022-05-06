@@ -344,6 +344,11 @@ Email = :value AND Password = :password
 
 
 ### 名词解释
+> Tokens that begin with the : character are expression attribute values, which are placeholders for the actual value at runtime.
+
+Ref:
+- https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression
+
 ```
 SAM, Serverless Application Modal
 ```
