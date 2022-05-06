@@ -301,6 +301,48 @@ Ref：
 - https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/monitoring-cloudwatchlogs.html
 
 
+### dynamodb/NoQL injection
+示例：
+```java
+...
+    // "type" parameter expected to be either: "Email" or "Username"
+    String type = request.getParameter("type")
+    String value = request.getParameter("value")
+    String password = request.getParameter("password")
+    
+    DynamoDbClient ddb = DynamoDbClient.create();
+
+    HashMap<String, AttributeValue> attrValues = new HashMap<String,AttributeValue>();
+    attrValues.put(":value", AttributeValue.builder().s(value).build());
+    attrValues.put(":password", AttributeValue.builder().s(password).build());
+
+    ScanRequest queryReq = ScanRequest.builder()
+        .filterExpression(type + " = :value AND Password = :password")
+        .tableName("users")
+        .expressionAttributeValues(attrValues)
+        .build();
+
+    ScanResponse response = ddb.scan(queryReq);
+...
+```
+期待的是：
+```
+Email = :value AND Password = :password
+```
+但是攻击者可以将`Email`改成：`:value = :value OR :value`，然后就变成了：
+```
+:value = :value OR :value = :value AND Password = :password
+```
+这里的`:value = :value`这个条件使得条件始终为true，从而返回所有的entry。
+
+
+#### Ref
+- https://medium.com/appsecengineer/dynamodb-injection-1db99c2454ac
+- https://github.com/we45/Serverless-Workshop/tree/master/docs/DynamoDB-Injection
+- https://attackdefense.pentesteracademy.com/challengedetailsnoauth?cid=1248
+- https://vulncat.fortify.com/en/detail?id=desc.dataflow.java.nosql_injection_dynamodb
+
+
 ### 名词解释
 ```
 SAM, Serverless Application Modal
