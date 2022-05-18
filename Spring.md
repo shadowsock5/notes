@@ -162,6 +162,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
+## Spring Data
+- https://www.exploit-db.com/exploits/44289/
+- https://securitylab.github.com/research/spring-data-rest-CVE-2017-8046-ql/
+- https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+    
 ## 参考
 - [Easy way to learn Spring Security 5](https://medium.com/@satyakm.dev/understanding-spring-security-internals-with-code-walkthrough-850d5749252c)
 - https://docs.spring.io/spring-security/site/docs/3.2.0.CI-SNAPSHOT/reference/html/remember-me.html
