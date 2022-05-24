@@ -16,6 +16,7 @@ http://localhost:9001/2018-06-01/runtime/invocation/next
 Ref：
 - https://github.com/RhinoSecurityLabs/Cloud-Security-Research/tree/master/AWS/lambda_ssrf
 - https://salmonsec.com/cheatsheet/server_side_request_forgery#ssrf-url-for-aws-lambda
+- https://gist.github.com/jhaddix/78cece26c91c6263653f31ba453e273b
 - 
 ![image](https://user-images.githubusercontent.com/30398606/164604096-a301f439-e158-4a2b-91a7-0d5cbd3dd389.png)
 
