@@ -23,3 +23,8 @@ leverage
 
 for responsibly
 reporting this issue and working with us as we addressed it.
+
+```
+not vulnerable to any known exploit
+
+```
