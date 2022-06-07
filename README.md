@@ -213,6 +213,10 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 ### Gif录制工具（Mac & Windows）
 - https://www.cockos.com/licecap/
 
+### markdown
+- https://zhuanlan.zhihu.com/p/208791140
+- https://typora.io/windows/typora-setup-x64.exe?0321
+
 
 ### Pentest notes
 - https://github.com/ffffffff0x/Pentest101
