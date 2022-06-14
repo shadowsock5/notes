@@ -219,6 +219,7 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 
 ### 常用linux工具下载
 - https://github.com/andrew-d/static-binaries
+- https://github.com/ernw/static-toolbox/releases
 
 ### Pentest notes
 - https://github.com/ffffffff0x/Pentest101
