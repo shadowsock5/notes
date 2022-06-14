@@ -217,6 +217,8 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 - https://zhuanlan.zhihu.com/p/208791140
 - https://typora.io/windows/typora-setup-x64.exe?0321
 
+### 常用linux工具下载
+- https://github.com/andrew-d/static-binaries
 
 ### Pentest notes
 - https://github.com/ffffffff0x/Pentest101
