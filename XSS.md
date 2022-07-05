@@ -548,7 +548,7 @@ http://drops.wooyun.org/tips/147
 - https://wooyun.js.org/drops/Bypass%20xss%E8%BF%87%E6%BB%A4%E7%9A%84%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.html
 - https://www.leavesongs.com/PENETRATION/xss-collect.html
 - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
-
+- https://www.gosecure.net/blog/2022/06/29/did-you-know-your-browsers-autofill-credentials-could-be-stolen-via-cross-site-scripting-xss/
 
 ## 防御方法
 参考：
