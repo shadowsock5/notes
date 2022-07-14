@@ -183,7 +183,7 @@ tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat8:/sbin/nologin
 - [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf)
 - https://twitter.com/SpenGietz/status/1161317376060563456
 - https://medium.com/poka-techblog/privilege-escalation-in-the-cloud-from-ssrf-to-global-account-administrator-fd943cf5a2f6
-
+- [ServerLess Aws Lambda攻击与横向方法研究](https://xz.aliyun.com/t/11442)
 > Lambda API 端点仅支持基于 HTTPS 的安全连接。使用 AWS Management Console、AWS开发工具包或 Lambda API 管理 Lambda 资源时，所有通信都使用传输层安全性 (TLS) 进行加密。
 
 Ref:
