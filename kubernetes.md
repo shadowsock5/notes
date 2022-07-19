@@ -12,3 +12,4 @@ Ref：
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Kubernetes
 - https://book.hacktricks.xyz/cloud-security/pentesting-kubernetes/pentesting-kubernetes-from-the-outside
 - https://book.hacktricks.xyz/cloud-security/pentesting-kubernetes/exposing-services-in-kubernetes
+- https://labs.withsecure.com/blog/attacking-kubernetes-through-kubelet/
