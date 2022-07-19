@@ -10,3 +10,4 @@ Ref：
 - https://goteleport.com/blog/how-to-hack-kubernetes/
 - https://www.frakkingsweet.com/accessing-the-kubernetes-api-from-a-pod-in-bash/
 - https://github.com/neargle/my-re0-k8s-security
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Kubernetes
