@@ -9,3 +9,4 @@ Ref：
 - https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 - https://goteleport.com/blog/how-to-hack-kubernetes/
 - https://www.frakkingsweet.com/accessing-the-kubernetes-api-from-a-pod-in-bash/
+- https://github.com/neargle/my-re0-k8s-security
