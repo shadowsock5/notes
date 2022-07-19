@@ -11,3 +11,4 @@ Ref：
 - https://github.com/neargle/my-re0-k8s-security
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Kubernetes
 - https://book.hacktricks.xyz/cloud-security/pentesting-kubernetes/pentesting-kubernetes-from-the-outside
+- https://book.hacktricks.xyz/cloud-security/pentesting-kubernetes/exposing-services-in-kubernetes
