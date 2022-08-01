@@ -7,6 +7,8 @@
 - [如何将SAST融入DevSecOps流程中？](https://mp.weixin.qq.com/s/ye77l3mWoJcCYiL1ShByVw)
 - [DevSecOps: How to Seamlessly Integrate Security Into DevOps](https://cdn2.hubspot.net/hubfs/1958393/White_Papers/devsecops_how_to_seamlessly__315283.pdf)
 - [Gitlab集成Sonarqube实现自动检测代码并发送报告给提交者](https://www.cnblogs.com/xiaozi/p/15102003.html)
+- https://github.com/pascal-lab/Tai-e
+- https://cs.nju.edu.cn/tiantan/taie.pdf
 
 ## 白盒扫描技术综述
 - [白盒扫描技术综述](https://anemone.top/whitebox-%E7%99%BD%E7%9B%92%E6%89%AB%E6%8F%8F%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0/)
