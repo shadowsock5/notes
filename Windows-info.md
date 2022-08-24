@@ -77,3 +77,8 @@ netsh advfirewall set allprofiles state off
 ```
 for /L %I in (1,1,254) DO @ping -w 1 -n 1 192.168.85.%I | findstr "TTL="
 ```
+
+### 将自己加入管理员
+```
+net localgroup administrators domain\username /add
+```
