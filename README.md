@@ -196,6 +196,7 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 - https://www.52pojie.cn
 
 ### jdk download
+- https://www.oracle.com/java/technologies/downloads/archive/
 - https://archive.org/details/jdk-7u80-windows-x64_201809
 - https://files-cdn.liferay.com/mirrors/download.oracle.com/otn-pub/java/jdk/7u80-b15/
 
