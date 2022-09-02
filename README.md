@@ -153,6 +153,8 @@ curl "https://api.hackertarget.com/nmap/?q=baidu.com"
 - http://dnsbin.zhack.ca/
 - http://dnslog.cn/
 - xxx.burpcollaborator.net
+- https://dig.pm/
+- http://dnslog.pw/
 
 ### 短网址
 - http://sina-t.cn/
