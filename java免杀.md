@@ -1,0 +1,2 @@
+- [java免杀合集](https://tttang.com/archive/1739/)
+- https://github.com/threedr3am/JSP-WebShells
