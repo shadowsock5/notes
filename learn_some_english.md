@@ -29,6 +29,27 @@ not vulnerable to any known exploit
 
 ```
 
+existing tools
+现有的工具
+
+
+java serialized objects
+序列化的java对象
+
+It works like charm
+
+
+release version xxx to address this vulnerability.
+
+(With) that being said
+
+
+I'll come to that later.
+一会儿我会提到。
+
+
+later version of Java/earlier version of Java
+高版本java/低版本java
 
 > non-default built-in and 3rd party library
 
