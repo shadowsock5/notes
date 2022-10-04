@@ -36,12 +36,14 @@ existing tools
 java serialized objects
 序列化的java对象
 
-It works like charm
-
+It works/goes/runs like a charm
+非常有效，非常成功，非常棒。
 
 release version xxx to address this vulnerability.
 
 (With) that being said
+话虽如此，然而...
+（虽然这话是对的，但是也有下面这种情况...）
 
 
 I'll come to that later.
@@ -55,8 +57,13 @@ later versions of Java/earlier versions of Java
 status quo
 现状
 
+it seems like...
+
+
+
 > non-default built-in and 3rd party library
 
 ### Ref
 - Room-For-Escape-Scribbling-Outside-The-Lines-Of-Template-Security.pdf
 - https://github.com/yzy1996/English-Writing
+- https://linguaholic.com/linguablog/with-that-being-said/
