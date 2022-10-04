@@ -48,10 +48,15 @@ I'll come to that later.
 一会儿我会提到。
 
 
-later version of Java/earlier version of Java
+later versions of Java/earlier versions of Java
 高版本java/低版本java
+
+
+status quo
+现状
 
 > non-default built-in and 3rd party library
 
 ### Ref
 - Room-For-Escape-Scribbling-Outside-The-Lines-Of-Template-Security.pdf
+- https://github.com/yzy1996/English-Writing
