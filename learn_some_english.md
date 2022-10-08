@@ -59,9 +59,17 @@ status quo
 
 it seems like...
 
+what we're going to cover today is ...
+
+lessons learned 学到的东西
+
+w.r.t.	with regard to    关于...
+
+in a nut shell  简而言之
 
 
-> non-default built-in and 3rd party library
+
+non-default built-in and 3rd party library
 
 ### Ref
 - Room-For-Escape-Scribbling-Outside-The-Lines-Of-Template-Security.pdf
