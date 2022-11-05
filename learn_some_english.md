@@ -67,7 +67,13 @@ w.r.t.	with regard to    关于...
 
 in a nut shell  简而言之
 
+user's own codebase： 用户写的代码
 
+what he is referring to here is ... ： 他指的是
+
+let's see how it goes：看看情况/效果咋样
+
+From my perspective：从我的角度来看
 
 non-default built-in and 3rd party library
 
