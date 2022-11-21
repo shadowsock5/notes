@@ -4,7 +4,7 @@
 - [Windows blind rce](https://joenibe.github.io/web/Dns-Exfilteration/)
 
 - https://github.com/QAX-A-Team/BrowserGhost
-
+- [红队知识体系梳理-域内信息收集](https://mp.weixin.qq.com/s/FiSh9CaaqXWAWoJErJGgLw)
 
 提取WinSCP，PuTTY等保存的会话信息：
 
