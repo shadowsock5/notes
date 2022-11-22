@@ -19,3 +19,10 @@
 
 
 ![image](https://user-images.githubusercontent.com/30398606/199682162-1b8f991a-123a-46b3-89d5-68231057a8fd.png)
+
+定义方法，然后执行：
+```java
+shell.eval("int foo() { return bla; }"); // variable bla is not yet defined
+JShellException ex = shell.eval("foo()").get(0).exception();
+throw ex; // "Attempt to use definition snippet with unresolved references"
+```
