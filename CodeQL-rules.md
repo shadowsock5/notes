@@ -63,3 +63,5 @@ https://infosecwriteups.com/detect-dangerous-spring-service-exporters-with-codeq
 - https://www.youtube.com/watch?v=qStzSfsEQGQ
 - [CodeQL Java 全网最全的中文学习资料](https://github.com/SummerSec/learning-codeql)
 - https://github.com/safe6Sec/CodeqlNote
+- https://mp.weixin.qq.com/s/vElNyQzChNAgmhXE80SFDA
+- https://mp.weixin.qq.com/s/5UmBkqCsBt64WY2JllIVSw
