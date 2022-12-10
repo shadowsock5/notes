@@ -130,6 +130,34 @@ mvn dependency:tree -Dincludes=org.springframework.security:spring-security-saml
 ```
 
 
+### SAML消息解释
+Ref：
+- [进宫 SAML 2.0 安全](https://paper.seebug.org/2006/)
+- https://research.aurainfosec.io/bypassing-saml20-SSO/
+
+
+```
+
+    AssertionConsumerServiceURL: 指定IDP认证成功之后，要将AuthnResponse发送到SP的哪个URL处理
+    Destination: 指定IDP认证的端点
+    ForceAuthn: 强制认证，就算之前认证过，浏览器携带了认证的session，如果这个值为true，还是会重新认证
+    ID: 随机标识，主要是用来方便在其他标签引用，例如在SignedInfo中的Reference
+    IsPassive: 默认为 false 。如果为 true，则IdP不能显示的通过浏览器与用户进行交互，用户不能感知到跳转的存在
+    IssueInstant: 请求的签发时间
+    ProtocolBinding: 使用什么来传输SAML消息，这里是通过HTTP POST来传输
+    Version: 2.0版本
+
+```
+
+
+对于签名问题，在Bypassing SAML 2.0 SSO with XML Signature Attacks这篇文章中提到的几个问题感觉很好的说明了SAML可能存在的安全隐患:
+```
+    签名是否是必须的？可能一些SAML的实现从请求中判断是否携带了Signature，携带了就校验，没携带就不校验；或者设置一个签名校验开关让开发者进行处理，而开发者可能并不熟悉没有打开强制验证等情况
+    签名是否经过验证？虽然生成AuthnRequest和Response都进行了签名，但是各自收到SAML消息时没有进行签名验证的情况
+    签名是否来自正确的签名者？X509Certificate包含签名者信息，如果没有校验是否是信任的证书，那么可以伪造证书，然后对SAML消息进行篡改，重新签名
+    是否对响应中正确的部分进行签名？SAML标准允许的签名存在的位置仅有两处:Response、Assertion，没有人仅仅为了使用SAML，就完整地实现复杂的XML签名机制。这一标准是通用的，标准的实现及其软件库也是如此。所以如果某些库如果验证签名没有验证到正确的位置，就可以将签名引用到文档的不同位置，并且让接受者认为签名是有效的，造成XSW攻击
+```
+
 
 参考：
 - https://tanzu.vmware.com/security/cve-2020-5407
