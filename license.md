@@ -11,7 +11,7 @@
 
 
 ## Winows Server 2019
-- https://blog.csdn.net/seakynet/article/details/86777314
+- https://www.xitongbuluo.com/jiaocheng/46464.html
 
 ### VMWare
 - https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251
