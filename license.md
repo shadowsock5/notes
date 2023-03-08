@@ -13,5 +13,9 @@
 ## Winows Server 2019
 - https://www.xitongbuluo.com/jiaocheng/46464.html
 
+
+## Windows 10 
+- https://passper.imyfone.com/windows-10/windows-10-product-key-free/
+
 ### VMWare
 - https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251
