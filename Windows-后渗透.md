@@ -14,3 +14,7 @@ https://github.com/Arvanaghi/SessionGopher
 wmic process where processid=19656 get processid,caption,executablepath,commandline
 ```
 拿到进程号为19656的进程名，可执行文件路径，命令行。
+
+
+### 浏览器密码抓取
+- https://github.com/QAX-A-Team/BrowserGhost
