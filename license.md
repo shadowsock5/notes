@@ -1,6 +1,9 @@
 ## xshell
 
 180505-117501-020791
+下载地址：
+https://cdn.netsarang.net/7561fd26/Xshell-6.0.0207r.exe
+
 
 参考：
 - https://blog.wintewu.com/archives/xshell-6-crack-trial
