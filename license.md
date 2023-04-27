@@ -22,3 +22,7 @@ https://cdn.netsarang.net/7561fd26/Xshell-6.0.0207r.exe
 
 ### VMWare
 - https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251
+
+
+## IDA Pro 7.5
+- https://bbs.kanxue.com/thread-264785.htm
