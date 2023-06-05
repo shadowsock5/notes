@@ -91,6 +91,11 @@ certutil.exe -urlcache -split -f "https://www.baidu.com/" C:\baidu.txt
 for /L %I in (1,1,254) DO @ping -w 1 -n 1 192.168.85.%I | findstr "TTL="
 ```
 
+### 根据时间查看目录下的文件
+```
+dir /o:d
+```
+
 ### 将自己加入管理员
 ```
 net localgroup administrators domain\username /add
