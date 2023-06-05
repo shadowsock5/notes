@@ -63,6 +63,7 @@ findstr /s /n /i /c:"class WebPage" "D:\xxx\yyy\*.cs"
 ### Windows下查看IIS的各个网站的目录以及配置信息
 ```
 appcmd list site /config
+C:\Windows\SysWOW64\inetsrv\appcmd.exe list site /config
 ```
 
 ### 查看防火墙信息
