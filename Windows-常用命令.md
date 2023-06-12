@@ -46,6 +46,19 @@ query user || qwinsta
 netstat –ano
 ```
 
+### 端口转发以及删除
+```
+端口转发到444端口：
+netsh interface portproxy add v4tov4 listenport=444 connectport=3389 listenaddress=0.0.0.0 connectaddress=127.0.0.1 protocol=tcp
+
+给444端口放行：
+netsh advfirewall firewall add rule name=open444 protocol=TCP dir=in localport=444 action=allow
+
+
+删除端口转发规则：
+netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport=444![Uploading image.png…]()
+```
+
 ### 查看补丁信息
 ```
 systeminfo
