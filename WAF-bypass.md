@@ -3,3 +3,4 @@
 - 腾讯WAF挑战赛回忆录.pdf
 - Java文件上传大杀器-绕waf(针对commons-fileupload组件).pdf
 - 从RFC看如何通过multipart文件上传绕过waf.pdf
+- [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
