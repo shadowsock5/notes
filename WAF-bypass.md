@@ -1,1 +1,5 @@
 - [Imperva WAF Bypass](https://www.techanarchy.net/imperva-waf-bypass/)
+- [Java流量层面绕WAF姿势总结](https://forum.ezreal.cool/thread-87-1-1.html)
+- 腾讯WAF挑战赛回忆录.pdf
+- Java文件上传大杀器-绕waf(针对commons-fileupload组件).pdf
+- 从RFC看如何通过multipart文件上传绕过waf.pdf
