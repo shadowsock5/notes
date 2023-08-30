@@ -1,0 +1,3 @@
+- [An In-depth Study of Java Deserialization Remote-Code Execution Exploits and Vulnerabilities](https://arxiv.org/pdf/2208.08173.pdf)
+- [Improving Java Deserialization Gadget Chain Mining via Overriding-Guided Object Generation](https://arxiv.org/pdf/2303.07593.pdf)
+- https://github.com/GCMiner/GCMiner
