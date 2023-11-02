@@ -11,6 +11,10 @@ https://cdn.netsarang.net/7561fd26/Xshell-6.0.0207r.exe
 
 ## Windows Server 2016
 - http://www.xitongcheng.com/jiaocheng/dnrj_article_46479.html
+- https://www.jianshu.com/p/43cef2cc8089
+- https://www.bilibili.com/read/cv22973545/
+- https://www.tudoumc.com/post/1947.html
+- https://netshopisp.medium.com/how-to-convert-windows-2016-server-evaluation-edition-to-standard-licensed-655e4b9a0fb1
 
 
 ## Winows Server 2019
