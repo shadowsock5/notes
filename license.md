@@ -4,9 +4,17 @@
 下载地址：
 https://cdn.netsarang.net/7561fd26/Xshell-6.0.0207r.exe
 
+安装后启动一次，修改注册表（cmd>regedit)
+```
+HKEY_CURRENT_USER\Software\NetSarang\Xshell\6\LiveUpdate
+HKEY_CURRENT_USER\Software\NetSarang\Xftp\6\LiveUpdate
+HKEY_CURRENT_USER\Software\NetSarang\Xmanager\6\LiveUpdate
+```
+右键设置权限，设置为当前用户拒绝全部权限。
 
 参考：
 - https://blog.wintewu.com/archives/xshell-6-crack-trial
+- https://web.archive.org/web/20220520145555/https://blog.wintewu.com/archives/xshell-6-crack-trial
 
 
 ## Windows Server 2016
